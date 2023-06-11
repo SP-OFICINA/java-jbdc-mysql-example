@@ -1,18 +1,18 @@
-## Getting Started
+## App java JDBC MySQL
+Projeto para demonstrar aplicação em JAVA com Base de dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+SGBD: MySQL
+Tecnologia: Java, JDBC, MySQL
+BD: bd_portugal.sql (Distritos, Concelhos e Freguesias de Portugal) 
 
-## Folder Structure
+BD_portugal_Modelo_Relacional
 
-The workspace contains two folders by default, where:
+![BD_portugal_Modelo_Relacional](https://user-images.githubusercontent.com/97760074/150655615-0321c745-a568-4e6f-93de-8d607a2b40b7.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Baixe ou clone o projeto.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Estrutura dos arquivos
+O projeto está em duas pastas:
+- `src`: pasta que contem o codigo-fonte do projeto
+- `lib`: pasta que contem as dependencias
+- `bin`: pasta que contem bytecode
